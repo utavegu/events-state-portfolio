@@ -1,0 +1,12 @@
+.gallery {
+  height: 1750px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.project {
+  width: 300px;
+  margin: 7px;
+}

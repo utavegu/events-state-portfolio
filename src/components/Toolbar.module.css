@@ -1,0 +1,32 @@
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -490px;
+}
+
+.filter {
+  margin: 5px;
+  padding: 5px 15px;
+  color: #555;
+  background-color: #fff;
+  font-size: large;
+  border: 2px solid #555;
+  cursor: pointer;  
+}
+
+.filter:hover {
+  color: #fff;
+  background: #999;
+}
+
+.filter:active {
+  color: #fff;
+  background: #333;
+}
+
+.active {
+  background: #555;
+  color:#fff;;
+}
