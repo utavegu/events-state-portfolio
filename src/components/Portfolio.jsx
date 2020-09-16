@@ -60,8 +60,8 @@ function Portfolio() {
 
   const [filterState, setFilterState] = React.useState({selected: "All"});
 
-  const onSelectFilter = (evt) => {
-    setFilterState({selected: evt.currentTarget.innerText});
+  const onSelectFilter = (selected) => {
+    setFilterState({selected});
   }
 
   return (

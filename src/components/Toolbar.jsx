@@ -12,7 +12,7 @@ function Toolbar(props) {
     {filters.map(currentFilter =>
       <button 
         className = {currentFilter === selected ? activeFilterStyle : filterStyle}
-        onClick = {evt => onSelectFilter(evt)}
+        onClick = {() => onSelectFilter(currentFilter)}
         key = {Math.random(1000)}
       >
         {currentFilter}

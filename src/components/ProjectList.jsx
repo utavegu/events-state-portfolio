@@ -19,7 +19,7 @@ function ProjectList(props) {
             <img
               className = {styles.project}
               src = {currentImage.img}
-              alt = {`${currentImage.category} image`}
+              alt = {`${currentImage.category} no rendered`}
               key = {Math.random(1000)} 
             />
           )}
