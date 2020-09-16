@@ -60,8 +60,8 @@ function Portfolio() {
 
   const [filterState, setFilterState] = React.useState({selected: "All"});
 
-  const onSelectFilter = (selected) => {
-    setFilterState({selected});
+  const onSelectFilter = (selectedFilter) => {
+    setFilterState({selected: selectedFilter});
   }
 
   return (
